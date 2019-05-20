@@ -38,4 +38,4 @@
 6.尝试过ResNet、attention、transformer编码和BERT，效果比较差，大概是姿势不对QAQ；<br><br>
 7.最后有一个不是很合适，但可以提高得分的方法，对未到投票阈值的spo，计算s、p、o等的频数、比例等信息，再训练一个二分类器(SVM，准确率约72%)，f1可以提高约0.0005-0.001<br><br>
 PS:比赛代码修改后在服务器上执行，本地代码不保证没问题，如有问题请自行debug，再次对主办方开放数据集表示感谢！<br><br>
-![](https://github.com/renjunxiang/lic2019_ie/blob/master/picture/score.jpg)
+![](https://github.com/renjunxiang/lic2019_ie/blob/master/picture/score.png)

@@ -11,7 +11,7 @@
 
 ## **运行方式**
 ### **获取预训练数据**
-1.词向量来源于https://github.com/Embedding/Chinese-Word-Vectors，在此表示感谢！<br>
+1.词向量来源于<https://github.com/Embedding/Chinese-Word-Vectors>，在此表示感谢！<br>
 2.运行脚本./embedding.py，抽取出字向量，保存在./data_deal中<br>
 
 ### **数据预处理**
@@ -27,7 +27,7 @@ p.pkl，spo关系编码，后续训练和推断都基于此<br>
 
 ### **测试模型**
 1.运行脚本./submit_dev.py，查看验证集ensemble情况<br>
-2.运行脚本./submit_test.py，获取测试集ensemble结果用于提交(内含规则等，赛后公开)<br>
+2.运行脚本./submit_test.py，获取测试集ensemble结果用于提交(内含规则等，暂不公开)<br>
 
 ## **其他说明**
 1.模型和苏剑林比赛开源的baseline一致，在参数完全相同、不使用预训练的情况下，苏剑林的模型(keras)f1=0.76，本模型(pytorch)f1=0.81，和部分赛友交流过差不多，原因不详，再次对苏剑林同学开源模型思路表示感谢；<br>

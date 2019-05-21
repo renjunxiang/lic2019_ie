@@ -19,7 +19,9 @@
 * tokenizer_pos.pkl，词性编码信息(数据中有缺失，用n替代)，推断test2数据会需要<br>
 * p.pkl，spo关系编码，后续训练和推断都基于此<br>
 * ./7000/xxx_data_process.pkl，预处理转换，后续训练和推断都基于此<br><br>
-2.运行脚本./embedding.py，抽取出字向量，保存在./data_deal中<br><br>
+
+### **获取嵌入层权重**
+1.运行脚本./embedding.py，抽取出字向量，保存在./data_deal中，以便后续nn.embedding的时候可以导入<br><br>
 
 ### **训练模型**
 1.运行脚本./train.py，自行修改路径和epochs等参数<br><br>

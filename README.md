@@ -12,14 +12,14 @@
 ## **运行方式**
 ### **获取预训练数据**
 1.词向量来源于<https://github.com/Embedding/Chinese-Word-Vectors>，在此表示感谢！<br><br>
-2.运行脚本./embedding.py，抽取出字向量，保存在./data_deal中<br><br>
 
 ### **数据预处理**
 1.运行脚本./preprocess.py在./data_deal中生成预处理结果，提供部分预处理数据，主要包含：<br>
 * tokenizer.pkl，文本编码信息，推断test2数据会需要<br>
 * tokenizer_pos.pkl，词性编码信息(数据中有缺失，用n替代)，推断test2数据会需要<br>
 * p.pkl，spo关系编码，后续训练和推断都基于此<br>
-* ./7000/xxx_data_process.pkl，预处理转换，后续训练和推断都基于此<br>
+* ./7000/xxx_data_process.pkl，预处理转换，后续训练和推断都基于此<br><br>
+2.运行脚本./embedding.py，抽取出字向量，保存在./data_deal中<br><br>
 
 ### **训练模型**
 1.运行脚本./train.py，自行修改路径和epochs等参数<br><br>

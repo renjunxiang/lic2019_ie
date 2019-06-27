@@ -14,7 +14,7 @@
 1.词向量来源于<https://github.com/Embedding/Chinese-Word-Vectors>，在此表示感谢！<br><br>
 
 ### **数据预处理**
-1.运行脚本./preprocess.py在./data_deal中生成预处理结果，提供部分预处理数据，主要包含：<br>
+1.运行脚本./preprocess.py在./data_deal中生成预处理结果，提供部分预处理数据（同事和网友反馈，lstm会有索引错误。用比赛数据重新生成预处理结果就没问题，可能是我几个数据没有对上，建议自己重新跑一下），主要包含：<br>
 * tokenizer.pkl，文本编码信息，推断test2数据会需要<br>
 * tokenizer_pos.pkl，词性编码信息(数据中有缺失，用n替代)，推断test2数据会需要<br>
 * p.pkl，spo关系编码，后续训练和推断都基于此<br>
